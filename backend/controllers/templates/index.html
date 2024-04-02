@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Documentation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>API Documentation</h1>
+
+    <h2>Authentication</h2>
+    <p><strong>POST /auth/signup</strong>: Create a new user.</p>
+    <p><strong>Request Body:</strong></p>
+    <pre>
+      <code>
+        {
+          "name": "string",
+          "age": "number",
+          "gender": "string",
+          "pincode": "string",
+          "aadhaarNumber": "string",
+          "phoneNumber": "string",
+          "password": "string",
+          "email": "string"
+        }
+      </code>
+    </pre>
+    <p><strong>Sample Request:</strong></p>
+    <pre>
+      <code>
+        POST /auth/signup
+        Content-Type: application/json
+
+        {
+          "name": "John Doe",
+          "age": 30,
+          "gender": "Male",
+          "pincode": "12345",
+          "aadhaarNumber": "123456789012",
+          "phoneNumber": "9876543210",
+          "password": "password123",
+          "email": "john@example.com"
+        }
+      </code>
+    </pre>
+
+    <p><strong>POST /auth/login</strong>: Authenticate user.</p>
+    <p><strong>Request Body:</strong></p>
+    <pre>
+      <code>
+        {
+          "aadhaarNumber": "string",
+          "password": "string"
+        }
+      </code>
+    </pre>
+    <p><strong>Sample Request:</strong></p>
+    <pre>
+      <code>
+        POST /auth/login
+        Content-Type: application/json
+
+        {
+          "aadhaarNumber": "123456789012",
+          "password": "password123"
+        }
+      </code>
+    </pre>
+
+    <h2>Data Management</h2>
+    <p><strong>POST /data/adddata</strong>: Add new data.</p>
+    <p><strong>Request Body:</strong></p>
+    <pre>
+      <code>
+        {
+          "diseaseName": "string",
+          "medicineName": ["string"],
+          "doctorName": "string",
+          "city": "string",
+          "nextAppointment": "date",
+          "refillDate": "date",
+          "aadhaarNumber": "string"
+        }
+      </code>
+    </pre>
+    <p><strong>Sample Request:</strong></p>
+    <pre>
+      <code>
+        POST /data/adddata
+        Content-Type: application/json
+
+        {
+          "diseaseName": "Fever",
+          "medicineName": ["Paracetamol", "Ibuprofen"],
+          "doctorName": "Dr. Smith",
+          "city": "New York",
+          "nextAppointment": "2024-03-15",
+          "refillDate": "2024-03-10",
+          "aadhaarNumber": "123456789012"
+        }
+      </code>
+    </pre>
+
+    <p><strong>DELETE /data/deletedata/:id</strong>: Delete data by ID.</p>
+    <p><strong>GET /data/getalldata</strong>: Get all data records.</p>
+    <p><strong>GET /data/getdatabyaadhaar/:aadhaarNumber</strong>: Get data by Aadhaar number.</p>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
