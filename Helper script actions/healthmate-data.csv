@@ -1,0 +1,52 @@
+diseaseName,medicineName,doctorName,city,pincode,date,nextAppointment,refillDate,aadhaarNumber
+malaria,chloroquine ,anant ambani,Indore,452004,2024-01-10,2024-01-20,2024-01-20,
+typhoid ,ofloxacin + Chloramphenicol,janamejay singh,Indore,452004,2024-01-10,2024-01-20,2024-01-20,579238761492
+typhoid ,ofloxacin + Chloramphenicol,janamejay singh,Indore,452004,2024-01-10,2024-01-20,2024-01-20,579238761492
+hepatitis ,vaccines,arth gupta,Indore,452004,2024-01-10,2024-01-20,2024-01-20,374529681923
+typhoid ,ofloxacin + Chloramphenicol,arth gupta,Indore,452004,2024-02-10,2024-02-20,2024-02-20,579238761492
+typhoid ,ofloxacin + Chloramphenicol,kanishk rajput,Indore,452004,2024-03-10,2024-03-20,2024-03-20,856491237142
+typhoid ,ofloxacin + Chloramphenicol,akash baghela,Indore,452004,2024-03-10,2024-03-20,2024-03-20,219784536578
+blood pressure ,amlodipine,Akshay sahu,Indore,452004,2024-01-10,2024-01-20,2024-01-20,643291857412
+blood pressure ,amlodipine,vrutika srivalli,Indore,452004,2024-02-10,2024-02-20,2024-02-20,579238761492
+blood pressure ,amlodipine,neha kakkar,kanpur,208002,2024-02-10,2024-02-20,2024-02-20,374529681923
+covid,Azithromycin ,mukesh ambani,kanpur,208002,2024-01-10,2024-01-20,2024-01-20,856491237142
+covid,Azithromycin ,ravindra nath tagore ,kanpur,208002,2024-02-10,2024-02-20,2024-02-20,579238761492
+covid,Azithromycin ,atif aslam,kanpur,208002,2024-02-10,2024-02-20,2024-02-20,374529681923
+covid,Azithromycin ,Arijit singh,kanpur,208002,2024-02-10,2024-02-20,2024-02-20,856491237142
+covid,Azithromycin ,tony kakkar,kanpur,208002,2024-02-10,2024-02-20,2024-02-20,219784536578
+covid,Azithromycin ,Sandeep sisodiya,kanpur,208002,2024-02-10,2024-02-20,2024-02-20,749612385937
+eye pressure ,"tefluprost, nepafanac",kishore ravichandra,rajkot,360005,2024-03-10,2024-03-20,2024-03-20,643291857412
+cold,Guaifenesin,George Washington,rajkot,36005,2024-01-10,2024-01-20,2024-01-20,579238761492
+cold,Guaifenesin,neha gupta,rajkot,36005,2024-02-10,2024-02-20,2024-02-20,579238761492
+cold,Guaifenesin,richa sharma,rajkot,36005,2024-02-10,2024-02-20,2024-02-20,374529681923
+cold,Guaifenesin,pratyusha banerjee ,rajkot,36005,2024-03-10,2024-03-20,2024-03-20,856491237142
+cold,Guaifenesin,ishika sharma,rajkot,36005,2024-03-10,2024-03-20,2024-03-20,219784536578
+cold,Guaifenesin,Divya Joshi ,rajkot,36005,2024-03-10,2024-03-20,2024-03-20,749612385937
+cold,Guaifenesin,harshita ratnaparkhee,rajkot,36005,2024-03-10,2024-03-20,2024-03-20,643291857412
+cold,Guaifenesin,ajeet wankhede,rajkot,36005,2024-03-10,2024-03-20,2024-03-20,928374561239
+cold,Guaifenesin,chhavi ojha,rajkot,36005,2024-03-10,2024-03-20,2024-03-20,928374561239
+constipation ,sena,ayushi joshi,delhi,110001,2024-01-10,2024-01-20,2024-01-20,483957126384
+constipation ,sena,ayush saxena,delhi,110001,2024-02-10,2024-02-20,2024-02-20,579238761492
+constipation ,sena,diptanshu saini,delhi,110001,2024-02-10,2024-02-20,2024-02-20,374529681923
+constipation ,sena,ravi kumar,delhi,110001,2024-03-10,2024-03-20,2024-03-20,856491237142
+constipation ,sena,akash Joshi ,delhi,110001,2024-03-10,2024-03-20,2024-03-20,219784536578
+constipation ,sena,golu shukla,delhi,110001,2024-03-10,2024-03-20,2024-03-20,643291857412
+acidity ,ranitidine,Arijit singh,mumbai,400001,2024-03-10,2024-03-20,2024-03-20,749612385937
+UTI,norfloxacin ,kishore choudhary ,mumbai,400001,2024-01-10,2024-01-20,2024-01-20,579238761492
+injury ,cephalosporin,ravindra maheshwari ,mumbai,400001,2024-03-10,2024-03-20,2024-03-20,579238761492
+diabetes ,glimipride+metformin,Mahendra dhoni ,chennai,600001,2024-01-10,2024-01-20,2024-01-20,374529681923
+diabetes ,glimipride+metformin ,Virat Kohli ,chennai,600001,2024-02-10,2024-02-20,2024-02-20,579238761492
+blood pressure ,amlodipine ,rahul gandhi ,chennai,600001,2024-03-10,2024-03-20,2024-03-20,374529681923
+blood pressure ,amlodipine ,rohit sharma,chennai,600001,2024-03-10,2024-03-20,2024-03-20,374529681923
+diabetes ,glimipride+metformin ,shanky asati ,chennai,600001,2024-03-10,2024-03-20,2024-03-20,579238761492
+UTI,norfloxacin ,rohit jadhav,kolkata,700001,2024-01-10,2024-01-20,2024-01-20,579238761492
+acidity ,rinatidine,akash pillai,kolkata,700001,2024-03-10,2024-03-20,2024-03-20,579238761492
+skin infection ,cefalaxin ,l.g gopal,kolkata,700001,2024-01-10,2024-01-20,2024-01-20,856491237142
+covid,Azithromycin ,k sunitha,kolkata,700001,2024-01-10,2024-01-20,2024-01-20,374529681923
+typhoid ,ofloxacin ,suraj kairo,pune,410014,2024-01-10,2024-01-20,2024-01-20,856491237142
+malaria,chloroquine ,akash vijayvargiya ,pune,410014,2024-01-10,2024-01-20,2024-01-20,374529681923
+asthma ,albuterol,badshah mimrot,pune,410014,2024-01-10,2024-01-20,2024-01-20,374529681923
+sore throat ,Azithromycin ,vandana tinku,pune,411005,2024-01-10,2024-01-20,2024-01-20,219784536578
+blood pressure ,amlodipine ,akash Joshi ,pune,411005,2024-01-10,2024-01-20,2024-01-20,219784536578
+influenza ,quinolone ,Arijit singh ,pune,411005,2024-01-10,2024-01-20,2024-01-20,219784536578
+,,,,,,,,219784536578

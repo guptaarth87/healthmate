@@ -58,7 +58,7 @@ function ViewData({ aadhaarNumber }) {
               <div className="card-body">
                 <h5 className="card-title">Data {index + 1}</h5>
                 <p className="card-text">Disease Name: {item.diseaseName}</p>
-                <p className="card-text">Medicine Name: {item.medicineName.join(', ')}</p>
+                <p className="card-text">Medicine Name: {item.medicineName}</p>
                 <p className="card-text">Doctor Name: {item.doctorName}</p>
                 <p className="card-text">City: {item.city}</p>
                 <p className="card-text">Next Appointment: {item.nextAppointment}</p>

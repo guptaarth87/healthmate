@@ -21,6 +21,7 @@ const deleteData = async (req, res) => {
 };
 
 const getAllData = async (req, res) => {
+  console.log("in get block")
   try {
     const allData = await Data.find();
     res.status(200).json(allData);
