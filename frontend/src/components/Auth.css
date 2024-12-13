@@ -1,0 +1,83 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  padding: 20px; /* Adds padding to avoid edges */
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 450px; /* Limits the form width for large screens */
+  border-radius: 10px; /* Rounded edges for a modern look */
+  padding: 20px; /* Padding inside the card */
+}
+
+@media (max-width: 576px) {
+  .signup-card {
+    padding: 15px; /* Reduced padding on smaller screens */
+  }
+}
+
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f8fa;
+}
+
+.auth-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.auth-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.auth-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+}
+
+.btn.auth-btn {
+  width: 100%;
+  background-color: #007bff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.auth-btn:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  margin-top: 10px;
+}

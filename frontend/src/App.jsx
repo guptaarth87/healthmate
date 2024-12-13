@@ -30,12 +30,9 @@ function App() {
 
   return (
     <Router>
-      <Navbar/>
+    
       <div className="container mt-5">
-        <h1 className="mb-4">Healthcare Management System</h1>
-        {aadhaarNumber && (
-          <button className="btn btn-danger mb-3" onClick={handleLogout}>Logout</button>
-        )}
+       
         
         <Routes>
           <Route path="/" element={<Login setAadhaarNumber={setAadhaarNumber} />} />

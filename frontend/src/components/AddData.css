@@ -1,0 +1,29 @@
+.add-data-page {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    padding-top: 50px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .card h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      padding: 20px;
+    }
+  }
+  

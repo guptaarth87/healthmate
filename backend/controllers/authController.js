@@ -2,6 +2,34 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const path = require('path');
 
+const getAllUsers = async (req, res) => {
+  try {
+    const { page = 1, limit = 5 } = req.query;
+    const users = await User.find()
+      .skip((page - 1) * limit)
+      .limit(parseInt(limit));
+
+    const total = await User.countDocuments();
+
+    res.status(200).json({
+      users,
+      total,
+    });
+  } catch (error) {
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+};
+
+const deleteUser = async (req, res) => {
+  try {
+    const { id } = req.params;
+    await User.findByIdAndDelete(id);
+    res.status(200).json({ message: 'User deleted successfully' });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 const Index = async (req, res)=>{
     try{
         res.sendFile(path.join(__dirname,'templates','index.html'));
@@ -49,4 +77,4 @@ const login = async (req, res) => {
   }
 };
 
-module.exports = { signup, login , Index };
+module.exports = { signup, login , Index,getAllUsers , deleteUser };
